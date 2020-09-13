@@ -18,14 +18,14 @@ function gridmap.generate(grid, map)
         h = function(x, y) grid:setHardBox(x, y) end,
         e = function(x, y) grid:setExplosiveBox(x, y) end,
     }
-    for x = grid.minx, grid.maxx do
-        if x < string.len(map[0]) then
-            for y = grid.miny, grid.maxy do
-                -- Grid allows negative coords; shift the origin to 0,0.
-                ox = x - grid.minx
-                oy = y - grid.miny
-                if (map[ox] ~= nil and y < string.len(map[ox])) then
-                    bt = map[ox]:sub(oy, oy)
+    for y = grid.miny, grid.maxy do
+        -- Grid allows negative coords; shift the origin to 0,0.
+        oy = y - grid.miny
+        if map[oy] ~= nil then
+            for x = grid.minx, grid.maxx do            
+                ox = (x - grid.minx) + 1
+                if ox <= string.len(map[oy]) then
+                    bt = map[oy]:sub(ox, ox)
                     if blockTypes[bt] ~= nil then
                         blockTypes[bt](x, y)
                     end

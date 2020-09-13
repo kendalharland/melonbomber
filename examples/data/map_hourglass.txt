@@ -1,0 +1,20 @@
+eeeeeeeeeeeeeeeeeee
+ebbbbbbbbbbbbbbbbbe
+eb      bbb      be
+ebb  bbbwbwbbb  bbe
+ebwb  ebwbwbe  bwbe
+ebwbb  bwbwb  bbwbe
+ebbbbb  ewe  bbbbbe
+ebwbbbb  b  bbbbwbe
+ebwbbbb ewe bbbbwbe
+ebbbbbb  b  bbbbbbe
+ebwbbbb ewe bbbbwbe
+ebwbbbb  b  bbbbwbe
+ebbbbb  ewe  bbbbbe
+ebwbb  bwbwb  bbwbe
+ebwb  ebwbwbe  bwbe
+ebb  bbbwbwbbb  bbe
+eb      bbb      be
+ebbbbbbbbbbbbbbbbbe
+eeeeeeeeeeeeeeeeeee
+bbbbbbbbbbbbbbbbbbb
